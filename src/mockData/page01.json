@@ -1,0 +1,73 @@
+{
+  "id": "01",
+  "timeline": [
+    {
+      "active": "background",
+      "text": 0,
+      "wait": 1
+    },
+    {
+      "active": "char01",
+      "text": 0,
+      "wait": 1,
+      "position": "right"
+    },
+    {
+      "active": "char01",
+      "text": 1,
+      "wait": 1,
+      "position": "right"
+    },
+    {
+      "active": "char02",
+      "text": 0,
+      "wait": 1,
+      "position": "left"
+    },
+    {
+      "active": "char02",
+      "text": 1,
+      "wait": 1,
+      "position": "left"
+    },
+    {
+      "active": "choices",
+      "text": 0,
+      "wait": null
+    }
+  ],
+  "background": {
+    "img": "/assets/background/background_cave.jpeg",
+    "text": ""
+  },
+  "char01": {
+    "name": "Remi Moretti",
+    "img": "/assets/characters/RemiMoretti.png",
+    "text": [
+      "text 01 ",
+      "text 02 ",
+      "text 03 ",
+      "text 04 "
+    ]
+  },
+  "char02": {
+    "name": "",
+    "img": "/assets/characters/Rook.png",
+    "text": [
+      "text 01 ",
+      "text 02 ",
+      "text 03 ",
+      "text 04 "
+    ]
+  },
+  "choices" : [
+    {
+      "text": "text 01",
+      "link": "page01"
+    },
+    {
+      "text": "text 02",
+      "link": "page02"
+    }
+  ]
+}
